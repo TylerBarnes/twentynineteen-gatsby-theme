@@ -1,0 +1,20 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "description": "The site to test the Twenty Nineteen Gatsby Theme.",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.16.4",
+    "gatsby-theme-twentynineteen": "*",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}

@@ -7,9 +7,7 @@ module.exports = {
       resolve: "gatsby-plugin-postcss",
       options: {
         postCssPlugins: [
-          autoprefixer({
-            browsers: ["last 2 versions"]
-          })
+          autoprefixer()
         ]
       }
     }
